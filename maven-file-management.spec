@@ -1,9 +1,9 @@
-%_javapackages_macros
+%{?_javapackages_macros:%_javapackages_macros}
 %global pkgname file-management
 
 Name:           maven-%{pkgname}
 Version:        1.2.1
-Release:        7.0%{?dist}
+Release:        7.1%{?dist}
 # Maven-shared defines file-management version as 1.2.2
 Epoch:          1
 Summary:        Maven File Management API
