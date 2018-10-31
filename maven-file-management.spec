@@ -3,7 +3,7 @@
 
 Name:           maven-%{pkgname}
 Version:        1.2.1
-Release:        11.2
+Release:        11.3
 # Maven-shared defines file-management version as 1.2.2
 Epoch:          1
 Summary:        Maven File Management API
