@@ -10,7 +10,7 @@ Summary:        Maven File Management API
 Group:		Development/Java
 License:        ASL 2.0
 # URL is not working now, cached copy at http://web.archive.org/web/20121029070007/http://maven.apache.org/shared/file-management/
-URL:            http://maven.apache.org/shared/%{pkgname}
+URL:            https://maven.apache.org/shared/%{pkgname}
 # svn export http://svn.apache.org/repos/asf/maven/shared/tags/file-management-1.2.1
 # tar caf maven-file-management-1.2.1.tar.xz file-management-1.2.1/
 Source0:        %{name}-%{version}.tar.xz
