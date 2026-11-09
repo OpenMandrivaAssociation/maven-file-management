@@ -1,0 +1,1181 @@
+--- /dev/null	2026-10-16 17:27:21.566975385 +0200
++++ b/LICENSE	2026-11-09 02:23:05.204186578 +0100
+@@ -0,0 +1,202 @@
++
++                                 Apache License
++                           Version 2.0, January 2004
++                        http://www.apache.org/licenses/
++
++   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
++
++   1. Definitions.
++
++      "License" shall mean the terms and conditions for use, reproduction,
++      and distribution as defined by Sections 1 through 9 of this document.
++
++      "Licensor" shall mean the copyright owner or entity authorized by
++      the copyright owner that is granting the License.
++
++      "Legal Entity" shall mean the union of the acting entity and all
++      other entities that control, are controlled by, or are under common
++      control with that entity. For the purposes of this definition,
++      "control" means (i) the power, direct or indirect, to cause the
++      direction or management of such entity, whether by contract or
++      otherwise, or (ii) ownership of fifty percent (50%) or more of the
++      outstanding shares, or (iii) beneficial ownership of such entity.
++
++      "You" (or "Your") shall mean an individual or Legal Entity
++      exercising permissions granted by this License.
++
++      "Source" form shall mean the preferred form for making modifications,
++      including but not limited to software source code, documentation
++      source, and configuration files.
++
++      "Object" form shall mean any form resulting from mechanical
++      transformation or translation of a Source form, including but
++      not limited to compiled object code, generated documentation,
++      and conversions to other media types.
++
++      "Work" shall mean the work of authorship, whether in Source or
++      Object form, made available under the License, as indicated by a
++      copyright notice that is included in or attached to the work
++      (an example is provided in the Appendix below).
++
++      "Derivative Works" shall mean any work, whether in Source or Object
++      form, that is based on (or derived from) the Work and for which the
++      editorial revisions, annotations, elaborations, or other modifications
++      represent, as a whole, an original work of authorship. For the purposes
++      of this License, Derivative Works shall not include works that remain
++      separable from, or merely link (or bind by name) to the interfaces of,
++      the Work and Derivative Works thereof.
++
++      "Contribution" shall mean any work of authorship, including
++      the original version of the Work and any modifications or additions
++      to that Work or Derivative Works thereof, that is intentionally
++      submitted to Licensor for inclusion in the Work by the copyright owner
++      or by an individual or Legal Entity authorized to submit on behalf of
++      the copyright owner. For the purposes of this definition, "submitted"
++      means any form of electronic, verbal, or written communication sent
++      to the Licensor or its representatives, including but not limited to
++      communication on electronic mailing lists, source code control systems,
++      and issue tracking systems that are managed by, or on behalf of, the
++      Licensor for the purpose of discussing and improving the Work, but
++      excluding communication that is conspicuously marked or otherwise
++      designated in writing by the copyright owner as "Not a Contribution."
++
++      "Contributor" shall mean Licensor and any individual or Legal Entity
++      on behalf of whom a Contribution has been received by Licensor and
++      subsequently incorporated within the Work.
++
++   2. Grant of Copyright License. Subject to the terms and conditions of
++      this License, each Contributor hereby grants to You a perpetual,
++      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
++      copyright license to reproduce, prepare Derivative Works of,
++      publicly display, publicly perform, sublicense, and distribute the
++      Work and such Derivative Works in Source or Object form.
++
++   3. Grant of Patent License. Subject to the terms and conditions of
++      this License, each Contributor hereby grants to You a perpetual,
++      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
++      (except as stated in this section) patent license to make, have made,
++      use, offer to sell, sell, import, and otherwise transfer the Work,
++      where such license applies only to those patent claims licensable
++      by such Contributor that are necessarily infringed by their
++      Contribution(s) alone or by combination of their Contribution(s)
++      with the Work to which such Contribution(s) was submitted. If You
++      institute patent litigation against any entity (including a
++      cross-claim or counterclaim in a lawsuit) alleging that the Work
++      or a Contribution incorporated within the Work constitutes direct
++      or contributory patent infringement, then any patent licenses
++      granted to You under this License for that Work shall terminate
++      as of the date such litigation is filed.
++
++   4. Redistribution. You may reproduce and distribute copies of the
++      Work or Derivative Works thereof in any medium, with or without
++      modifications, and in Source or Object form, provided that You
++      meet the following conditions:
++
++      (a) You must give any other recipients of the Work or
++          Derivative Works a copy of this License; and
++
++      (b) You must cause any modified files to carry prominent notices
++          stating that You changed the files; and
++
++      (c) You must retain, in the Source form of any Derivative Works
++          that You distribute, all copyright, patent, trademark, and
++          attribution notices from the Source form of the Work,
++          excluding those notices that do not pertain to any part of
++          the Derivative Works; and
++
++      (d) If the Work includes a "NOTICE" text file as part of its
++          distribution, then any Derivative Works that You distribute must
++          include a readable copy of the attribution notices contained
++          within such NOTICE file, excluding those notices that do not
++          pertain to any part of the Derivative Works, in at least one
++          of the following places: within a NOTICE text file distributed
++          as part of the Derivative Works; within the Source form or
++          documentation, if provided along with the Derivative Works; or,
++          within a display generated by the Derivative Works, if and
++          wherever such third-party notices normally appear. The contents
++          of the NOTICE file are for informational purposes only and
++          do not modify the License. You may add Your own attribution
++          notices within Derivative Works that You distribute, alongside
++          or as an addendum to the NOTICE text from the Work, provided
++          that such additional attribution notices cannot be construed
++          as modifying the License.
++
++      You may add Your own copyright statement to Your modifications and
++      may provide additional or different license terms and conditions
++      for use, reproduction, or distribution of Your modifications, or
++      for any such Derivative Works as a whole, provided Your use,
++      reproduction, and distribution of the Work otherwise complies with
++      the conditions stated in this License.
++
++   5. Submission of Contributions. Unless You explicitly state otherwise,
++      any Contribution intentionally submitted for inclusion in the Work
++      by You to the Licensor shall be under the terms and conditions of
++      this License, without any additional terms or conditions.
++      Notwithstanding the above, nothing herein shall supersede or modify
++      the terms of any separate license agreement you may have executed
++      with Licensor regarding such Contributions.
++
++   6. Trademarks. This License does not grant permission to use the trade
++      names, trademarks, service marks, or product names of the Licensor,
++      except as required for reasonable and customary use in describing the
++      origin of the Work and reproducing the content of the NOTICE file.
++
++   7. Disclaimer of Warranty. Unless required by applicable law or
++      agreed to in writing, Licensor provides the Work (and each
++      Contributor provides its Contributions) on an "AS IS" BASIS,
++      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
++      implied, including, without limitation, any warranties or conditions
++      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
++      PARTICULAR PURPOSE. You are solely responsible for determining the
++      appropriateness of using or redistributing the Work and assume any
++      risks associated with Your exercise of permissions under this License.
++
++   8. Limitation of Liability. In no event and under no legal theory,
++      whether in tort (including negligence), contract, or otherwise,
++      unless required by applicable law (such as deliberate and grossly
++      negligent acts) or agreed to in writing, shall any Contributor be
++      liable to You for damages, including any direct, indirect, special,
++      incidental, or consequential damages of any character arising as a
++      result of this License or out of the use or inability to use the
++      Work (including but not limited to damages for loss of goodwill,
++      work stoppage, computer failure or malfunction, or any and all
++      other commercial damages or losses), even if such Contributor
++      has been advised of the possibility of such damages.
++
++   9. Accepting Warranty or Additional Liability. While redistributing
++      the Work or Derivative Works thereof, You may choose to offer,
++      and charge a fee for, acceptance of support, warranty, indemnity,
++      or other liability obligations and/or rights consistent with this
++      License. However, in accepting such obligations, You may act only
++      on Your own behalf and on Your sole responsibility, not on behalf
++      of any other Contributor, and only if You agree to indemnify,
++      defend, and hold each Contributor harmless for any liability
++      incurred by, or claims asserted against, such Contributor by reason
++      of your accepting any such warranty or additional liability.
++
++   END OF TERMS AND CONDITIONS
++
++   APPENDIX: How to apply the Apache License to your work.
++
++      To apply the Apache License to your work, attach the following
++      boilerplate notice, with the fields enclosed by brackets "[]"
++      replaced with your own identifying information. (Don't include
++      the brackets!)  The text should be enclosed in the appropriate
++      comment syntax for the file format. We also recommend that a
++      file or class name and description of purpose be included on the
++      same "printed page" as the copyright notice for easier
++      identification within third-party archives.
++
++   Copyright [yyyy] [name of copyright owner]
++
++   Licensed under the Apache License, Version 2.0 (the "License");
++   you may not use this file except in compliance with the License.
++   You may obtain a copy of the License at
++
++       http://www.apache.org/licenses/LICENSE-2.0
++
++   Unless required by applicable law or agreed to in writing, software
++   distributed under the License is distributed on an "AS IS" BASIS,
++   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++   See the License for the specific language governing permissions and
++   limitations under the License.
+--- /dev/null	2026-10-16 17:27:21.566975385 +0200
++++ b/NOTICE	2026-11-09 02:23:05.208680885 +0100
+@@ -0,0 +1,6 @@
++Apache Maven File Management API
++Copyright 2002-2025 The Apache Software Foundation
++
++
++This product includes software developed at
++The Apache Software Foundation (http://www.apache.org/).
+--- /dev/null	2026-10-16 17:27:21.566975385 +0200
++++ b/src/main/java/org/apache/maven/shared/model/fileset/FileSet.java	2026-11-09 02:23:05.214651323 +0100
+@@ -0,0 +1,186 @@
++/*
++ Licensed to the Apache Software Foundation (ASF) under one
++ or more contributor license agreements.  See the NOTICE file
++ distributed with this work for additional information
++ regarding copyright ownership.  The ASF licenses this file
++ to you under the Apache License, Version 2.0 (the
++ "License"); you may not use this file except in compliance
++ with the License.  You may obtain a copy of the License at
++ 
++     http://www.apache.org/licenses/LICENSE-2.0
++ 
++ Unless required by applicable law or agreed to in writing,
++ software distributed under the License is distributed on an
++ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
++ KIND, either express or implied.  See the License for the
++ specific language governing permissions and limitations
++ under the License.
++ =================== DO NOT EDIT THIS FILE ====================
++ Generated by Modello 2.4.0,
++ any modifications will be overwritten.
++ ==============================================================
++ */
++
++package org.apache.maven.shared.model.fileset;
++
++/**
++ * 
++ *         Defines the rules for matching and working with files in
++ * a given base directory.
++ *       
++ * 
++ * @version $Revision$ $Date$
++ */
++@SuppressWarnings( "all" )
++public class FileSet
++    extends SetBase
++    implements java.io.Serializable
++{
++
++      //--------------------------/
++     //- Class/Member Variables -/
++    //--------------------------/
++
++    /**
++     * 
++     *             Absolute or relative from the module's
++     * directory.  For
++     *             example, "src/main/bin" would select this
++     * subdirectory
++     *             of the project in which this dependency is
++     * defined.
++     *           
++     */
++    private String directory;
++
++    /**
++     * 
++     *             
++     *             Controls the line-endings of files in this
++     * fileSet.
++     *             <br/>
++     *             Valid values:
++     *             <ul>
++     *               <li><b>"keep"</b> - Preserve all line
++     * endings</li>
++     *               <li><b>"unix"</b> - Use Unix-style line
++     * endings</li>
++     *               <li><b>"lf"</b> - Use a single line-feed line
++     * endings</li>
++     *               <li><b>"dos"</b> - Use DOS-style line
++     * endings</li>
++     *               <li><b>"crlf"</b> - Use Carraige-return,
++     * line-feed line endings</li>
++     *             </ul>
++     *             
++     *           
++     */
++    private String lineEnding;
++
++    /**
++     * Field modelEncoding.
++     */
++    private String modelEncoding = "UTF-8";
++
++
++      //-----------/
++     //- Methods -/
++    //-----------/
++
++    /**
++     * Get absolute or relative from the module's directory.  For
++     *             example, "src/main/bin" would select this
++     * subdirectory
++     *             of the project in which this dependency is
++     * defined.
++     * 
++     * @return String
++     */
++    public String getDirectory()
++    {
++        return this.directory;
++    } //-- String getDirectory()
++
++    /**
++     * Get controls the line-endings of files in this fileSet.
++     *             <br/>
++     *             Valid values:
++     *             <ul>
++     *               <li><b>"keep"</b> - Preserve all line
++     * endings</li>
++     *               <li><b>"unix"</b> - Use Unix-style line
++     * endings</li>
++     *               <li><b>"lf"</b> - Use a single line-feed line
++     * endings</li>
++     *               <li><b>"dos"</b> - Use DOS-style line
++     * endings</li>
++     *               <li><b>"crlf"</b> - Use Carraige-return,
++     * line-feed line endings</li>
++     *             </ul>
++     * 
++     * @return String
++     */
++    public String getLineEnding()
++    {
++        return this.lineEnding;
++    } //-- String getLineEnding()
++
++    /**
++     * Get the modelEncoding field.
++     * 
++     * @return String
++     */
++    public String getModelEncoding()
++    {
++        return this.modelEncoding;
++    } //-- String getModelEncoding()
++
++    /**
++     * Set absolute or relative from the module's directory.  For
++     *             example, "src/main/bin" would select this
++     * subdirectory
++     *             of the project in which this dependency is
++     * defined.
++     * 
++     * @param directory a directory object.
++     */
++    public void setDirectory( String directory )
++    {
++        this.directory = directory;
++    } //-- void setDirectory( String )
++
++    /**
++     * Set controls the line-endings of files in this fileSet.
++     *             <br/>
++     *             Valid values:
++     *             <ul>
++     *               <li><b>"keep"</b> - Preserve all line
++     * endings</li>
++     *               <li><b>"unix"</b> - Use Unix-style line
++     * endings</li>
++     *               <li><b>"lf"</b> - Use a single line-feed line
++     * endings</li>
++     *               <li><b>"dos"</b> - Use DOS-style line
++     * endings</li>
++     *               <li><b>"crlf"</b> - Use Carraige-return,
++     * line-feed line endings</li>
++     *             </ul>
++     * 
++     * @param lineEnding a lineEnding object.
++     */
++    public void setLineEnding( String lineEnding )
++    {
++        this.lineEnding = lineEnding;
++    } //-- void setLineEnding( String )
++
++    /**
++     * Set the modelEncoding field.
++     * 
++     * @param modelEncoding a modelEncoding object.
++     */
++    public void setModelEncoding( String modelEncoding )
++    {
++        this.modelEncoding = modelEncoding;
++    } //-- void setModelEncoding( String )
++
++}
+--- /dev/null	2026-10-16 17:27:21.566975385 +0200
++++ b/src/main/java/org/apache/maven/shared/model/fileset/Mapper.java	2026-11-09 02:23:05.220681046 +0100
+@@ -0,0 +1,335 @@
++/*
++ Licensed to the Apache Software Foundation (ASF) under one
++ or more contributor license agreements.  See the NOTICE file
++ distributed with this work for additional information
++ regarding copyright ownership.  The ASF licenses this file
++ to you under the Apache License, Version 2.0 (the
++ "License"); you may not use this file except in compliance
++ with the License.  You may obtain a copy of the License at
++ 
++     http://www.apache.org/licenses/LICENSE-2.0
++ 
++ Unless required by applicable law or agreed to in writing,
++ software distributed under the License is distributed on an
++ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
++ KIND, either express or implied.  See the License for the
++ specific language governing permissions and limitations
++ under the License.
++ =================== DO NOT EDIT THIS FILE ====================
++ Generated by Modello 2.4.0,
++ any modifications will be overwritten.
++ ==============================================================
++ */
++
++package org.apache.maven.shared.model.fileset;
++
++/**
++ * Class Mapper.
++ * 
++ * @version $Revision$ $Date$
++ */
++@SuppressWarnings( "all" )
++public class Mapper
++    implements java.io.Serializable
++{
++
++      //--------------------------/
++     //- Class/Member Variables -/
++    //--------------------------/
++
++    /**
++     * 
++     *             
++     *             Specifies a built-in mapper implementation.
++     *             <br/>
++     *             Valid values:
++     *             <ul>
++     *               <li><b>"flatten"</b> -
++     *                   The target file name is identical to the
++     * source file name, with all leading
++     *                   directory information stripped off. Both
++     * to and from will be ignored.
++     *               </li>
++     *               <li><b>"glob"</b> -
++     *                   Both to and from define patterns that may
++     * contain at most one *. For each source
++     *                   file that matches the from pattern, a
++     * target file name will be constructed from
++     *                   the to pattern by substituting the * in
++     * the to pattern with the text that matches
++     *                   the * in the from pattern. Source file
++     * names that don't match the from pattern
++     *                   will be ignored.
++     *               </li>
++     *               <li><b>"regexp"</b> -
++     *                   Both to and from define regular
++     * expressions. If the source file name matches the
++     *                   from pattern, the target file name will be
++     * constructed from the to pattern, using
++     *                   \0 to \9 as back-references for the full
++     * match (\0) or the matches of the
++     *                   subexpressions in parentheses. Source
++     * files not matching the from pattern will be
++     *                   ignored.
++     *               </li>
++     *               <li><b>"merge"</b> -
++     *                   The target file name will always be the
++     * same, as defined by to. from will be
++     *                   ignored.
++     *               </li>
++     *               <li><b>"package"</b> -
++     *                   Sharing the same syntax as the glob
++     * mapper, the package mapper replaces directory
++     *                   separators found in the matched source
++     * pattern with dots in the target pattern
++     *                   placeholder.
++     *               </li>
++     *               <li><b>"unpackage"</b> -
++     *                   This mapper is the inverse of the package
++     * mapper. It replaces the dots in a
++     *                   package name with directory separators.
++     * This is useful for matching XML formatter
++     *                   results against their JUnit test test
++     * cases. The mapper shares the sample syntax
++     *                   as the glob mapper.
++     *               </li>
++     *             </ul>
++     *             
++     *           
++     */
++    private String type = "identity";
++
++    /**
++     * 
++     *               Specifies a type-specific pattern for matching
++     * source paths which should be mapped.
++     *           
++     */
++    private String from;
++
++    /**
++     * 
++     *           Specifies a type-specific pattern for producing
++     * paths based on source paths.
++     *           
++     */
++    private String to;
++
++    /**
++     * 
++     *           Allows specification of a custom mapper
++     * implementation. The class must be of type
++     *          
++     * org.apache.maven.shared.model.fileset.mappers.FileNameMapper,
++     * from the artifact
++     *           org.apache.maven.shared:file-management.
++     *           
++     */
++    private String classname;
++
++
++      //-----------/
++     //- Methods -/
++    //-----------/
++
++    /**
++     * Get allows specification of a custom mapper implementation.
++     * The class must be of type
++     *          
++     * org.apache.maven.shared.model.fileset.mappers.FileNameMapper,
++     * from the artifact
++     *           org.apache.maven.shared:file-management.
++     * 
++     * @return String
++     */
++    public String getClassname()
++    {
++        return this.classname;
++    } //-- String getClassname()
++
++    /**
++     * Get specifies a type-specific pattern for matching source
++     * paths which should be mapped.
++     * 
++     * @return String
++     */
++    public String getFrom()
++    {
++        return this.from;
++    } //-- String getFrom()
++
++    /**
++     * Get specifies a type-specific pattern for producing paths
++     * based on source paths.
++     * 
++     * @return String
++     */
++    public String getTo()
++    {
++        return this.to;
++    } //-- String getTo()
++
++    /**
++     * Get specifies a built-in mapper implementation.
++     *             <br/>
++     *             Valid values:
++     *             <ul>
++     *               <li><b>"flatten"</b> -
++     *                   The target file name is identical to the
++     * source file name, with all leading
++     *                   directory information stripped off. Both
++     * to and from will be ignored.
++     *               </li>
++     *               <li><b>"glob"</b> -
++     *                   Both to and from define patterns that may
++     * contain at most one *. For each source
++     *                   file that matches the from pattern, a
++     * target file name will be constructed from
++     *                   the to pattern by substituting the * in
++     * the to pattern with the text that matches
++     *                   the * in the from pattern. Source file
++     * names that don't match the from pattern
++     *                   will be ignored.
++     *               </li>
++     *               <li><b>"regexp"</b> -
++     *                   Both to and from define regular
++     * expressions. If the source file name matches the
++     *                   from pattern, the target file name will be
++     * constructed from the to pattern, using
++     *                   \0 to \9 as back-references for the full
++     * match (\0) or the matches of the
++     *                   subexpressions in parentheses. Source
++     * files not matching the from pattern will be
++     *                   ignored.
++     *               </li>
++     *               <li><b>"merge"</b> -
++     *                   The target file name will always be the
++     * same, as defined by to. from will be
++     *                   ignored.
++     *               </li>
++     *               <li><b>"package"</b> -
++     *                   Sharing the same syntax as the glob
++     * mapper, the package mapper replaces directory
++     *                   separators found in the matched source
++     * pattern with dots in the target pattern
++     *                   placeholder.
++     *               </li>
++     *               <li><b>"unpackage"</b> -
++     *                   This mapper is the inverse of the package
++     * mapper. It replaces the dots in a
++     *                   package name with directory separators.
++     * This is useful for matching XML formatter
++     *                   results against their JUnit test test
++     * cases. The mapper shares the sample syntax
++     *                   as the glob mapper.
++     *               </li>
++     *             </ul>
++     * 
++     * @return String
++     */
++    public String getType()
++    {
++        return this.type;
++    } //-- String getType()
++
++    /**
++     * Set allows specification of a custom mapper implementation.
++     * The class must be of type
++     *          
++     * org.apache.maven.shared.model.fileset.mappers.FileNameMapper,
++     * from the artifact
++     *           org.apache.maven.shared:file-management.
++     * 
++     * @param classname a classname object.
++     */
++    public void setClassname( String classname )
++    {
++        this.classname = classname;
++    } //-- void setClassname( String )
++
++    /**
++     * Set specifies a type-specific pattern for matching source
++     * paths which should be mapped.
++     * 
++     * @param from a from object.
++     */
++    public void setFrom( String from )
++    {
++        this.from = from;
++    } //-- void setFrom( String )
++
++    /**
++     * Set specifies a type-specific pattern for producing paths
++     * based on source paths.
++     * 
++     * @param to a to object.
++     */
++    public void setTo( String to )
++    {
++        this.to = to;
++    } //-- void setTo( String )
++
++    /**
++     * Set specifies a built-in mapper implementation.
++     *             <br/>
++     *             Valid values:
++     *             <ul>
++     *               <li><b>"flatten"</b> -
++     *                   The target file name is identical to the
++     * source file name, with all leading
++     *                   directory information stripped off. Both
++     * to and from will be ignored.
++     *               </li>
++     *               <li><b>"glob"</b> -
++     *                   Both to and from define patterns that may
++     * contain at most one *. For each source
++     *                   file that matches the from pattern, a
++     * target file name will be constructed from
++     *                   the to pattern by substituting the * in
++     * the to pattern with the text that matches
++     *                   the * in the from pattern. Source file
++     * names that don't match the from pattern
++     *                   will be ignored.
++     *               </li>
++     *               <li><b>"regexp"</b> -
++     *                   Both to and from define regular
++     * expressions. If the source file name matches the
++     *                   from pattern, the target file name will be
++     * constructed from the to pattern, using
++     *                   \0 to \9 as back-references for the full
++     * match (\0) or the matches of the
++     *                   subexpressions in parentheses. Source
++     * files not matching the from pattern will be
++     *                   ignored.
++     *               </li>
++     *               <li><b>"merge"</b> -
++     *                   The target file name will always be the
++     * same, as defined by to. from will be
++     *                   ignored.
++     *               </li>
++     *               <li><b>"package"</b> -
++     *                   Sharing the same syntax as the glob
++     * mapper, the package mapper replaces directory
++     *                   separators found in the matched source
++     * pattern with dots in the target pattern
++     *                   placeholder.
++     *               </li>
++     *               <li><b>"unpackage"</b> -
++     *                   This mapper is the inverse of the package
++     * mapper. It replaces the dots in a
++     *                   package name with directory separators.
++     * This is useful for matching XML formatter
++     *                   results against their JUnit test test
++     * cases. The mapper shares the sample syntax
++     *                   as the glob mapper.
++     *               </li>
++     *             </ul>
++     * 
++     * @param type a type object.
++     */
++    public void setType( String type )
++    {
++        this.type = type;
++    } //-- void setType( String )
++
++}
+--- /dev/null	2026-10-16 17:27:21.566975385 +0200
++++ b/src/main/java/org/apache/maven/shared/model/fileset/SetBase.java	2026-11-09 02:23:05.228681153 +0100
+@@ -0,0 +1,437 @@
++/*
++ Licensed to the Apache Software Foundation (ASF) under one
++ or more contributor license agreements.  See the NOTICE file
++ distributed with this work for additional information
++ regarding copyright ownership.  The ASF licenses this file
++ to you under the Apache License, Version 2.0 (the
++ "License"); you may not use this file except in compliance
++ with the License.  You may obtain a copy of the License at
++ 
++     http://www.apache.org/licenses/LICENSE-2.0
++ 
++ Unless required by applicable law or agreed to in writing,
++ software distributed under the License is distributed on an
++ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
++ KIND, either express or implied.  See the License for the
++ specific language governing permissions and limitations
++ under the License.
++ =================== DO NOT EDIT THIS FILE ====================
++ Generated by Modello 2.4.0,
++ any modifications will be overwritten.
++ ==============================================================
++ */
++
++package org.apache.maven.shared.model.fileset;
++
++/**
++ * Class SetBase.
++ * 
++ * @version $Revision$ $Date$
++ */
++@SuppressWarnings( "all" )
++public class SetBase
++    implements java.io.Serializable
++{
++
++      //--------------------------/
++     //- Class/Member Variables -/
++    //--------------------------/
++
++    /**
++     * 
++     *             Specifies whether symbolic links should be
++     * traversed, or handled as-is.
++     *           
++     */
++    private boolean followSymlinks = false;
++
++    /**
++     * 
++     *             Specifies the output directory relative to the
++     * root
++     *             of the root directory of the assembly.  For
++     * example,
++     *             "log" will put the specified files in the log
++     * directory.
++     *           
++     */
++    private String outputDirectory;
++
++    /**
++     * 
++     *             Whether to include exclusion patterns for common
++     * temporary and SCM control
++     *             files (true by default).
++     *           
++     */
++    private boolean useDefaultExcludes = true;
++
++    /**
++     * Field includes.
++     */
++    private java.util.List<String> includes;
++
++    /**
++     * Field excludes.
++     */
++    private java.util.List<String> excludes;
++
++    /**
++     * 
++     *             
++     *             Similar to a UNIX permission.  Format:
++     * (User)(Group)(Other) where each
++     *             component is a sum of Read = 4, Write = 2, and
++     * Execute = 1.  For example,
++     *             the default value of 0644 translates to User
++     * read-write, Group and Other
++     *             read-only.
++     *             <a
++     * href="http://www.onlamp.com/pub/a/bsd/2000/09/06/FreeBSD_Basics.html">(more
++     * on unix-style
++     *             permissions)</a>
++     *             
++     *           
++     */
++    private String fileMode = "0644";
++
++    /**
++     * 
++     *             
++     *             Similar to a UNIX permission.  Format:
++     * (User)(Group)(Other) where each
++     *             component is a sum of Read = 4, Write = 2, and
++     * Execute = 1.  For example,
++     *             the default value of 0755 translates to User
++     * read-write, Group and Other
++     *             read-only.
++     *             <a
++     * href="http://www.onlamp.com/pub/a/bsd/2000/09/06/FreeBSD_Basics.html">(more
++     * on unix-style
++     *             permissions)</a>
++     *             
++     *           
++     */
++    private String directoryMode = "0755";
++
++    /**
++     * 
++     *             Specifies the mapper used.
++     *           
++     */
++    private Mapper mapper = new Mapper();
++
++
++      //-----------/
++     //- Methods -/
++    //-----------/
++
++    /**
++     * Method addExclude.
++     * 
++     * @param string a string object.
++     */
++    public void addExclude( String string )
++    {
++        getExcludes().add( string );
++    } //-- void addExclude( String )
++
++    /**
++     * Method addInclude.
++     * 
++     * @param string a string object.
++     */
++    public void addInclude( String string )
++    {
++        getIncludes().add( string );
++    } //-- void addInclude( String )
++
++    /**
++     * Get similar to a UNIX permission.  Format:
++     * (User)(Group)(Other) where each
++     *             component is a sum of Read = 4, Write = 2, and
++     * Execute = 1.  For example,
++     *             the default value of 0755 translates to User
++     * read-write, Group and Other
++     *             read-only.
++     *             <a
++     * href="http://www.onlamp.com/pub/a/bsd/2000/09/06/FreeBSD_Basics.html">(more
++     * on unix-style
++     *             permissions)</a>
++     * 
++     * @return String
++     */
++    public String getDirectoryMode()
++    {
++        return this.directoryMode;
++    } //-- String getDirectoryMode()
++
++    /**
++     * Method getExcludes.
++     * 
++     * @return List
++     */
++    public java.util.List<String> getExcludes()
++    {
++        if ( this.excludes == null )
++        {
++            this.excludes = new java.util.ArrayList<String>();
++        }
++
++        return this.excludes;
++    } //-- java.util.List<String> getExcludes()
++
++    /**
++     * Get similar to a UNIX permission.  Format:
++     * (User)(Group)(Other) where each
++     *             component is a sum of Read = 4, Write = 2, and
++     * Execute = 1.  For example,
++     *             the default value of 0644 translates to User
++     * read-write, Group and Other
++     *             read-only.
++     *             <a
++     * href="http://www.onlamp.com/pub/a/bsd/2000/09/06/FreeBSD_Basics.html">(more
++     * on unix-style
++     *             permissions)</a>
++     * 
++     * @return String
++     */
++    public String getFileMode()
++    {
++        return this.fileMode;
++    } //-- String getFileMode()
++
++    /**
++     * Method getIncludes.
++     * 
++     * @return List
++     */
++    public java.util.List<String> getIncludes()
++    {
++        if ( this.includes == null )
++        {
++            this.includes = new java.util.ArrayList<String>();
++        }
++
++        return this.includes;
++    } //-- java.util.List<String> getIncludes()
++
++    /**
++     * Get specifies the mapper used.
++     * 
++     * @return Mapper
++     */
++    public Mapper getMapper()
++    {
++        return this.mapper;
++    } //-- Mapper getMapper()
++
++    /**
++     * Get specifies the output directory relative to the root
++     *             of the root directory of the assembly.  For
++     * example,
++     *             "log" will put the specified files in the log
++     * directory.
++     * 
++     * @return String
++     */
++    public String getOutputDirectory()
++    {
++        return this.outputDirectory;
++    } //-- String getOutputDirectory()
++
++    /**
++     * Get specifies whether symbolic links should be traversed, or
++     * handled as-is.
++     * 
++     * @return boolean
++     */
++    public boolean isFollowSymlinks()
++    {
++        return this.followSymlinks;
++    } //-- boolean isFollowSymlinks()
++
++    /**
++     * Get whether to include exclusion patterns for common
++     * temporary and SCM control
++     *             files (true by default).
++     * 
++     * @return boolean
++     */
++    public boolean isUseDefaultExcludes()
++    {
++        return this.useDefaultExcludes;
++    } //-- boolean isUseDefaultExcludes()
++
++    /**
++     * Method removeExclude.
++     * 
++     * @param string a string object.
++     */
++    public void removeExclude( String string )
++    {
++        getExcludes().remove( string );
++    } //-- void removeExclude( String )
++
++    /**
++     * Method removeInclude.
++     * 
++     * @param string a string object.
++     */
++    public void removeInclude( String string )
++    {
++        getIncludes().remove( string );
++    } //-- void removeInclude( String )
++
++    /**
++     * Set similar to a UNIX permission.  Format:
++     * (User)(Group)(Other) where each
++     *             component is a sum of Read = 4, Write = 2, and
++     * Execute = 1.  For example,
++     *             the default value of 0755 translates to User
++     * read-write, Group and Other
++     *             read-only.
++     *             <a
++     * href="http://www.onlamp.com/pub/a/bsd/2000/09/06/FreeBSD_Basics.html">(more
++     * on unix-style
++     *             permissions)</a>
++     * 
++     * @param directoryMode a directoryMode object.
++     */
++    public void setDirectoryMode( String directoryMode )
++    {
++        this.directoryMode = directoryMode;
++    } //-- void setDirectoryMode( String )
++
++    /**
++     * Set when &lt;exclude&gt; subelements are present, they
++     * define
++     *             a set of files and directory to exclude.
++     * 
++     * @param excludes a excludes object.
++     */
++    public void setExcludes( java.util.List<String> excludes )
++    {
++        this.excludes = excludes;
++    } //-- void setExcludes( java.util.List )
++
++    /**
++     * Set similar to a UNIX permission.  Format:
++     * (User)(Group)(Other) where each
++     *             component is a sum of Read = 4, Write = 2, and
++     * Execute = 1.  For example,
++     *             the default value of 0644 translates to User
++     * read-write, Group and Other
++     *             read-only.
++     *             <a
++     * href="http://www.onlamp.com/pub/a/bsd/2000/09/06/FreeBSD_Basics.html">(more
++     * on unix-style
++     *             permissions)</a>
++     * 
++     * @param fileMode a fileMode object.
++     */
++    public void setFileMode( String fileMode )
++    {
++        this.fileMode = fileMode;
++    } //-- void setFileMode( String )
++
++    /**
++     * Set specifies whether symbolic links should be traversed, or
++     * handled as-is.
++     * 
++     * @param followSymlinks a followSymlinks object.
++     */
++    public void setFollowSymlinks( boolean followSymlinks )
++    {
++        this.followSymlinks = followSymlinks;
++    } //-- void setFollowSymlinks( boolean )
++
++    /**
++     * Set when &lt;include&gt; subelements are present, they
++     * define
++     *             a set of files and directory to include.
++     * 
++     * @param includes a includes object.
++     */
++    public void setIncludes( java.util.List<String> includes )
++    {
++        this.includes = includes;
++    } //-- void setIncludes( java.util.List )
++
++    /**
++     * Set specifies the mapper used.
++     * 
++     * @param mapper a mapper object.
++     */
++    public void setMapper( Mapper mapper )
++    {
++        this.mapper = mapper;
++    } //-- void setMapper( Mapper )
++
++    /**
++     * Set specifies the output directory relative to the root
++     *             of the root directory of the assembly.  For
++     * example,
++     *             "log" will put the specified files in the log
++     * directory.
++     * 
++     * @param outputDirectory a outputDirectory object.
++     */
++    public void setOutputDirectory( String outputDirectory )
++    {
++        this.outputDirectory = outputDirectory;
++    } //-- void setOutputDirectory( String )
++
++    /**
++     * Set whether to include exclusion patterns for common
++     * temporary and SCM control
++     *             files (true by default).
++     * 
++     * @param useDefaultExcludes a useDefaultExcludes object.
++     */
++    public void setUseDefaultExcludes( boolean useDefaultExcludes )
++    {
++        this.useDefaultExcludes = useDefaultExcludes;
++    } //-- void setUseDefaultExcludes( boolean )
++
++    
++    /**
++     * @return the file-set inclusion rules in array form.
++     */
++    public String[] getIncludesArray()
++    {
++        String[] includesArry = null;
++        java.util.List<String> includes = getIncludes();
++        if ( includes != null && !includes.isEmpty() )
++        {
++            includesArry = (String[]) includes.toArray( new String[0] );
++        }
++        else if ( includes != null )
++        {
++            includesArry = new String[0];
++        }
++
++        return includesArry;
++    }
++
++    /**
++     * @return the file-set exclusion rules in array form.
++     */
++    public String[] getExcludesArray()
++    {
++        String[] excludesArry = null;
++        java.util.List<String> excludes = getExcludes();
++        if ( excludes != null && !excludes.isEmpty() )
++        {
++            excludesArry = (String[]) excludes.toArray( new String[0] );
++        }
++        else if ( excludes != null )
++        {
++            excludesArry = new String[0];
++        }
++
++        return excludesArry;
++    }
++
++          
++}

@@ -1,2 +1,4 @@
 sources:
+  maven-file-management-3.2.0.tar.gz: 87ea0378797b796f5d93ef86922993a3f805cc4b
+removed_sources:
   maven-file-management-1.2.1.tar.xz: 6c00a1939e6970ae017c9f526b0939885dfdc771

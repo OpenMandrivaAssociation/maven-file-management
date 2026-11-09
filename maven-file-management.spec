@@ -1,86 +1,75 @@
-%{?_javapackages_macros:%_javapackages_macros}
-%global pkgname file-management
-
-Name:           maven-%{pkgname}
-Version:        1.2.1
-Release:        11.3
-# Maven-shared defines file-management version as 1.2.2
-Epoch:          1
-Summary:        Maven File Management API
+Name:		maven-file-management
+Version:	3.2.0
+Release:	1
+Epoch:		1
+Summary:	Maven File Management API
 Group:		Development/Java
-License:        ASL 2.0
-# URL is not working now, cached copy at http://web.archive.org/web/20121029070007/http://maven.apache.org/shared/file-management/
-URL:            https://maven.apache.org/shared/%{pkgname}
-# svn export http://svn.apache.org/repos/asf/maven/shared/tags/file-management-1.2.1
-# tar caf maven-file-management-1.2.1.tar.xz file-management-1.2.1/
-Source0:        %{name}-%{version}.tar.xz
-# ASL mandates that the licence file be included in redistributed source
-Source1:        http://www.apache.org/licenses/LICENSE-2.0.txt
-BuildArch:      noarch
+License:	Apache-2.0
+URL:		https://maven.apache.org/shared/file-management/
+Source0:	https://github.com/apache/maven-file-management/archive/refs/tags/v%{version}.tar.gz#/maven-file-management-%{version}.tar.gz
+# Modello is not packaged. These classes are the 3.2.0 generated sources.
+Patch0:		modello-sources.patch
+BuildArch:	noarch
+BuildRequires:	python
+BuildRequires:	maven
+BuildRequires:	java-current-devel
+BuildRequires:	mvn(commons-io:commons-io)
+BuildRequires:	apache-commons-io >= 1:2.22.0
+Requires:	apache-commons-io >= 1:2.22.0
+BuildRequires:	mvn(org.codehaus.plexus:plexus-utils)
+BuildRequires:	plexus-utils >= 3.6.2
+Requires:	plexus-utils >= 3.6.2
+BuildRequires:	mvn(org.slf4j:slf4j-api)
+BuildSystem:	maven
+BuildOption(install):	--file-name %{name}
 
-BuildRequires:  maven-local
-BuildRequires:  maven-shared
-BuildRequires:  modello
-
-Obsoletes:      maven-shared-%{pkgname} < %{epoch}:%{version}-%{release}
-Provides:       maven-shared-%{pkgname} = %{epoch}:%{version}-%{release}
+Obsoletes:	maven-shared-file-management < %{EVRD}
+Provides:	maven-shared-file-management = %{EVRD}
+Obsoletes:	maven-file-management-javadoc < %{EVRD}
+Obsoletes:	maven-shared-file-management-javadoc < %{EVRD}
 
 %description
-Provides a component for plugins to easily resolve project dependencies.
-
-This is a replacement package for maven-shared-file-management.
-
-%package javadoc
-Summary:        Javadoc for %{name}
-Obsoletes:      maven-shared-%{pkgname}-javadoc < %{epoch}:%{version}-%{release}
-Provides:       maven-shared-%{pkgname}-javadoc = %{epoch}:%{version}-%{release}
-    
-%description javadoc
-API documentation for %{name}.
+Resolves the files selected by a Maven file set and maps their paths.
+3.2.0 deletes through commons-io and handles symlinks with java.nio.
+The model classes are the Modello 2.4.0 sources. Tests are not run.
 
 %prep
-%setup -q -n %{pkgname}-%{version}
-cp -p %{SOURCE1} LICENSE.txt
+%autosetup -n maven-file-management-%{version} -p1
+rm -rf src/test .github src/site
+python - <<'PY'
+import xml.etree.ElementTree as ET
+NS = "http://maven.apache.org/POM/4.0.0"
+ET.register_namespace("", NS)
 
-# Need namespace for new version modello
-# Bug has been filed at http://jira.codehaus.org/browse/MSHARED-234
-sed -i "s|<model>|<model xmlns=\"http://modello.codehaus.org/MODELLO/1.3.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://modello.codehaus.org/MODELLO/1.3.0 http://modello.codehaus.org/xsd/modello-1.3.0.xsd\" xml.namespace=\"..\" xml.schemaLocation=\"..\" xsd.namespace=\"..\" xsd.targetNamespace=\"..\">|" src/main/mdo/fileset.mdo
+def tag(name):
+    return "{" + NS + "}" + name
 
-%build
-%mvn_build
+def add(parent, name, text):
+    node = ET.SubElement(parent, tag(name))
+    node.text = text
+    return node
 
-%install
-%mvn_install
+root = ET.Element(tag("project"))
+add(root, "modelVersion", "4.0.0")
+add(root, "groupId", "org.apache.maven.shared")
+add(root, "artifactId", "file-management")
+add(root, "version", "%{version}")
+add(root, "name", "Apache Maven File Management API")
+props = ET.SubElement(root, tag("properties"))
+add(props, "maven.compiler.release", "8")
+add(props, "project.build.sourceEncoding", "UTF-8")
+deps = ET.SubElement(root, tag("dependencies"))
+for group, artifact, version in (
+    ("commons-io", "commons-io", "2.22.0"),
+    ("org.codehaus.plexus", "plexus-utils", "3.6.2"),
+    ("org.slf4j", "slf4j-api", "1.7.36"),
+):
+    dep = ET.SubElement(deps, tag("dependency"))
+    add(dep, "groupId", group)
+    add(dep, "artifactId", artifact)
+    add(dep, "version", version)
+ET.ElementTree(root).write("pom.xml", encoding="utf-8", xml_declaration=True)
+PY
 
 %files -f .mfiles
-%doc LICENSE.txt
-
-%files javadoc -f .mfiles-javadoc
-%doc LICENSE.txt
-
-%changelog
-* Sat Aug 03 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1:1.2.1-7
-- Rebuilt for https://fedoraproject.org/wiki/Fedora_20_Mass_Rebuild
-
-* Tue Feb 19 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1:1.2.1-6
-- Build with xmvn
-
-* Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1:1.2.1-5
-- Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
-
-* Wed Feb 06 2013 Java SIG <java-devel@lists.fedoraproject.org> - 1:1.2.1-4
-- Update for https://fedoraproject.org/wiki/Fedora_19_Maven_Rebuild
-- Replace maven BuildRequires with maven-local
-
-* Fri Jan 18 2013 Tomas Radej <tradej@redhat.com> - 1:1.2.1-3
-- Added proper Provides/Obsoletes in javadoc
-- Fixed changelog entries
-
-* Mon Jan 14 2013 Tomas Radej <tradej@redhat.com> - 1:1.2.1-2
-- Added licence text
-- Changed maven target from install to package
-- Creating directories in Install
-
-* Wed Aug 08 2012 Tomas Radej <tradej@redhat.com> - 1.2.1-1
-- Initial version
-
+%doc LICENSE NOTICE README.md
